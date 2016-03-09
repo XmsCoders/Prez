@@ -33,3 +33,13 @@ Orange Applications for Business
 
 .play hello.go
 
+* Éléments de syntaxe 
+
+.play channels.go
+
+* Éléments de syntaxe 
+
+.play interfaces.go /END OMIT/,
+
+
+
