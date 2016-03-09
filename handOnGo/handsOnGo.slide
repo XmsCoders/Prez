@@ -1,0 +1,35 @@
+Hands On Go
+10 Mars 2015
+
+Benjamin Chenebault & Jacques Antoine Massé
+Orange Applications for Business
+
+* Sommaire
+
+- Présentation du langage
+- Éléments de syntaxe
+- Quelques patterns
+- Environnement de développement
+- Du code…
+
+* Le langage
+
+- Google : R. Pike, K. Thomson,…
+- 2012 : Go v1
+- 2016 : Go v1.6
+
+* Le langage 
+
+- Multiparadigme, majoritairement procédural
+- Fonctions "citoyens de première classe"
+- Des objets, des interfaces, mais pas d'héritage
+- Goroutines : "queues" primitives du langage
+
+- Garbage collecté
+- Compilé
+- arm, amd64, 386 / Windows, Linux, MacOS
+
+* Éléments de syntaxe
+
+.play hello.go
+
