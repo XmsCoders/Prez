@@ -6,19 +6,23 @@ Orange Applications for Business
 
 * Sommaire
 
-- Présentation du langage
-- Éléments de syntaxe
-- Quelques patterns
-- Environnement de développement
+- Généralités
+- Le langage et les éléments de syntaxe
+- L'environnement de développement
+- Quelques patterns à connaître
 - Du code…
 
-* Le langage
+* Généralités
+
+.image gopherswim.jpg _ 600
+
+* Généralités
 
 - Google : R. Pike, K. Thomson,…
 - 2012 : Go v1
 - 2016 : Go v1.6
 
-* Le langage 
+* Généralités
 
 - Multiparadigme, majoritairement procédural
 - Fonctions "citoyens de première classe"
@@ -28,6 +32,8 @@ Orange Applications for Business
 - Garbage collecté
 - Compilé
 - arm, amd64, 386 / Windows, Linux, MacOS
+
+* Le langage
 
 * Éléments de syntaxe
 
@@ -40,6 +46,77 @@ Orange Applications for Business
 * Éléments de syntaxe 
 
 .play interfaces.go /END OMIT/,
+
+
+* L'environnement de développement
+
+* Golang
+
+- Installer Golang 1.6 disponible sur 
+  golang.org/doc/install
+
+
+.iframe https://golang.org/doc/install 400 900
+
+
+* L'éditeur
+
+- liteide
+  https://sourceforge.net/projects/liteide/files/
+
+- vscode
+  https://code.visualstudio.com/
+  https://marketplace.visualstudio.com/items?itemName=lukehoban.Go
+
+- vim
+  https://github.com/fatih/vim-go
+
+* La structure d'un projet
+
+  -- src
+    -- golang.org
+        --foo
+            --bar               (go code in package bar)
+                x.go
+            --quux              (go code in package main)
+                y.go
+    -- github.com
+  -- pkg
+  -- bin
+
+- src contient les sources
+- pkg contient les fichiers objets issus de la compilation
+- bin contient les exécutables
+
+
+* Un scaffolder pratique
+
+Disponible sur https://github.com/BenC-/generator-go
+
+.iframe https://github.com/BenC-/generator-go 400 900
+
+* Quelques patterns à connaitre
+
+* Quelques patterns à connaitre
+
+.play pattern1.go
+
+* Quelques patterns à connaitre
+
+.play pattern2.go
+
+* Quelques patterns à connaitre
+
+.play pattern3.go
+
+
+* On code 
+
+- Objectif : Développement d'un Duel Quizz (http://178.33.192.172/)
+
+- Squelette du hand's on
+  https://github.com/GoGang/triviageek-hand-s-on
+
 
 
 
